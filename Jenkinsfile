@@ -18,7 +18,6 @@ pipeline {
     stage('r1') {
       steps {
         echo 'fdsdf'
-        build(job: 'j1', quietPeriod: 4, wait: true)
         bat 'run.bat'
       }
     }
