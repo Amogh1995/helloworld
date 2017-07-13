@@ -19,7 +19,7 @@ pipeline {
       steps {
         echo 'fdsdf'
         bat "cd /d e:/amog java/testng"
-        bat "run.bat"
+        bat "run"
       }
     }
     stage('deploy') {
