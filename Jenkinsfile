@@ -19,7 +19,7 @@ pipeline {
       steps {
         echo 'fdsdf'
         bat "e:"
-        bat "cd Amog java
+        bat "cd Amog java"
         bat "cd testng"
         bat "run.bat"
       }
