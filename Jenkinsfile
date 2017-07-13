@@ -18,9 +18,7 @@ pipeline {
     stage('r1') {
       steps {
         echo 'fdsdf'
-        bat "e:"
-        bat "cd Amog java"
-        bat "cd testng"
+        bat "cd /d e:\amog java\testng"
         bat "run.bat"
       }
     }
