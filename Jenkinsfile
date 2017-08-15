@@ -5,7 +5,7 @@ pipeline {
       steps {
         parallel(
           "s1": {
-            echo 'This is the start'
+            echo 'This is the start of hygieia'
             
           },
           "sub s1": {
